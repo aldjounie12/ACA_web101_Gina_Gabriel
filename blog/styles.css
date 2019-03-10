@@ -1,0 +1,33 @@
+ h1 {
+     width: 60%;
+     margin: 5% auto;
+     background: pink;
+ }
+/*
+body {
+  
+ }*/
+
+ main {
+   width: 60%;
+   margin: 5% auto;
+   background: pink
+ }
+
+ article {
+   margin: 1% auto;
+   border: 2px solid fuchsia;
+   background:yellowgreen;
+ }
+
+ article > h3 {
+   font-size: 1em;
+ }
+
+ article:hover {
+   background: whitesmoke;
+ }
+
+ article:hover > h3 {
+   color: blue;
+ }
