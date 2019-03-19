@@ -1,0 +1,12 @@
+header {
+    display: inline;
+}
+.description {
+    font-size: 19px;
+}
+img{
+    display: inline;
+}
+ul, li{
+    display: inline;
+}
