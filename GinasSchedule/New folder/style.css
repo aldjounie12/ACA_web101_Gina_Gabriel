@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin:0;
+    display: display;
+    grid-template-columns: auto;
+    grid-template-rows: 60px auto 60px;
+    grid-template-areas: "hd hd"
+                         "sidebar main"
+                         "footer footer;"
+                   
+}
+
+header,
+aside,
+footer {
+    padding: 26px;
+    text-align: center;
+}
+
+header {
+    background: grey;
+
+}
+aside {
+    background: orangered;
+}
