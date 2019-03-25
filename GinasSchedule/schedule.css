@@ -1,0 +1,35 @@
+
+/*
+body {
+ 
+}*/
+
+body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+main {
+  width: 60%;
+  margin: 5% auto;
+  background: gray
+}
+
+article {
+  margin: 1% auto;
+  border: 2px soli black;
+  background:whitesmoke;
+}
+
+article > h3 {
+  font-size: 1em;
+}
+
+article:hover {
+  background: whitesmoke;
+}
+
+article:hover > h3 {
+  color: blue;
+}
