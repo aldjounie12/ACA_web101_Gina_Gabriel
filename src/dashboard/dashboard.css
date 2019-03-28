@@ -1,0 +1,114 @@
+
+body, html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-template-rows: repeat(auto,5);
+    grid-template-areas: 
+            "sect1"
+            "sect2"
+            "sect3"
+            "main"
+            "footer"
+
+}
+main {
+    background-image: orchid ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+aside {
+    grid-area: sidebars;
+    background-image: lilac;
+}
+ul {
+    line-height: 2em;
+
+}
+footer ul {
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+   justify-content: space-between;
+
+   /* margin-top: 0%; */
+}
+
+header {
+    grid-area: header;
+    grid-area: sect1;
+    background-image: lime green;
+    background-repeat: no-repeat;
+    background-size: 100 100;
+
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+section:nth-of-type(2) {
+    grid-area: sect2;
+    background-color: yellow;
+}
+
+section:nth-of-type(3) {
+    grid-area: sect3;
+    background-color: brown;
+
+}
+main {
+    grid-area: main;
+    background-color: aqua;
+}
+footer {
+    grid-area: footer;
+    background-image: url;
+
+}
+h2 {
+    margin-bottom: 0;
+    text-align: center;
+}
+@media (min-width: 576) {
+    body{
+        margin: 0;
+        display: grid;
+        grid-auto-columns: auto 27% 27% 27%;
+        grid-auto-rows: 8% 30% auto 10%;
+        grid-template-areas:
+        "sidebars header header header"
+        "sidebars sect1 sect2 sect3"
+        "sidebars  main main main"
+        "sidebars footer footer footer"
+    }
+    .section2 {
+        visibility: hidden;
+    }
+    @media only screen and (min-width:760px) {
+        body {
+            margin: 0;
+            display: grid;
+            grid-auto-columns: auto 27% 27% 27%;
+        grid-auto-rows: 8% 30% auto 10%;
+        grid-template-areas:
+        "sidebars header header header"
+        "sidebars sect1 sect2 sect3"
+        "sidebars  main main main"
+        "sidebars footer footer footer"
+    }
+    .section2 {
+        visibility:visible;
+        background-image: pink;
+
+        }
+        .section3{
+            background-image: lilac;
+        }
+    }
+        }
+    

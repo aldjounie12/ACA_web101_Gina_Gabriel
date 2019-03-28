@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    border: 0px;
+}
+#header {
+    width: 100%;
+    height: 120%;
+    background: black;
+    color: white;
+    position: flex;
+}
+#sidebar {
+    width: 300px;
+    height: 400px;
+    background: rgb(250, 230, 249);
+    float: left;
+}
+#data {
+    height: 700px;
+    background: purple;
+    color: aliceblue;
+    font-family: aqua;
+}
+#adminlogo {
+    background: red;
+    border-radius: 50px;
+    
+}
+ul li{
+    padding: 20px;
+    border-bottom: 2px solid grey;
+}
+ul li hover {
+    background: orange;
+    color:white;
+}

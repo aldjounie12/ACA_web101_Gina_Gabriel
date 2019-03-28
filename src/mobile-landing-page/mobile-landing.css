@@ -1,12 +1,46 @@
-header {
+.container{
+    float: center;
+    margin: 0%;
+    border: 1px black solid;
+    padding: 10px;
+}
+footer{
+    background-color: grey;
+
+}
+main img{
+    width: 60%;
+    margin: auto;
+}
+h1{
+    font-size: 25px;
+}
+ul{
+    display: inline-block;
+    color: grey
+}
+a{
+    
+    color:blue
+}
+
+
+h3{
     display: inline;
+    margin: 15px;
+    color: white
 }
-.description {
-    font-size: 19px;
+button{
+    margin: 15px;
+    font-size: 150%
 }
-img{
-    display: inline;
+@media (min-width:500px){
+    aside{
+      
+            position:fixed;
+            top: 30px;
+            right: 30px;
+        }
+        
 }
-ul, li{
-    display: inline;
-}
+
