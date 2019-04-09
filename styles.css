@@ -1,4 +1,68 @@
- h1 {
+
+
+project-container {
+  margin :10;
+  padding: 10;
+  background: palevioletred;
+}
+div{
+  width: 600px;
+  height: 300px;
+  background: whitesmoke;
+  overflow: auto;
+}
+ul {
+  padding: 0;
+  margin:0 0 0 300px;
+  list-style: none;
+
+}
+li {
+  float: right;
+}
+.pic img {
+  position: absolute;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px
+  
+}
+img {
+  border-radius: 50%;
+}
+
+nav a{
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: arial;
+  color: blue;
+  text-align: right;
+}
+nav a:hover {
+  background: purple;
+  color: white;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+#demobox1 {
+  background-color:lightblue;
+  padding: 10px;
+  border: 1px solid orange;
+text-align: center;
+}
+#demobox2 {
+background-color: palevioletred;
+padding: 10px;
+border:1px solid red;
+text-align: center;
+}
+}
+ 
+ 
+ 
+ /* h1 {
      width: 60%;
      margin: 5% auto;
      background: pink;
@@ -8,26 +72,27 @@ body {
   
  }*/
 
- main {
+ /* main {
    width: 60%;
    margin: 5% auto;
    background: pink
- }
+ } */
 
- article {
+ /* article {
    margin: 1% auto;
    border: 2px solid fuchsia;
    background:yellowgreen;
- }
+ } */
 
- article > h3 {
+ /* article > h3 {
    font-size: 1em;
- }
+ } */
 
- article:hover {
+ /* article:hover {
    background: whitesmoke;
- }
+ } */
 
- article:hover > h3 {
+ /* article:hover > h3 {
    color: blue;
- }
+ } */ */
+

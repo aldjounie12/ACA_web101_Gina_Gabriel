@@ -27,19 +27,27 @@ body {
     display: grid;
     grid-template-columns: 30% 40% 30%;
   }
+
+  a:hover {
+    background: rgb(117, 0, 128);
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
   
   nav > a {
-    margin: 2% 1% 3%;
+    margin: auto;
     height: 15%;
     width: 100%;
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 15px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px; 
+    border-radius: 10px;
+    background:transparent;
+    padding: 10px; 
     text-align: center;
-    border: 3px solid red;
+    /* border: 1px solid rgb(225, 0, 255); */
   }
 
 
@@ -52,11 +60,11 @@ li {
  
 
 }
-  
+ 
   .has-border {
     border-radius: 25px;
-    border: 3px solid red;
-    background: none;
+    border: 1px solid white;
+    background: black;
     padding: 20px;
   }
   
@@ -79,7 +87,7 @@ li {
     color:#9b59b6;
     grid-column: 2/3;
     margin: 3% auto;
-    border-bottom: 2px solid #;;
+    border-bottom: 2px solid;
   }
   h1,h2{
     text-align:center;
@@ -99,9 +107,9 @@ li {
   
   .small-text {
     grid-column: 2/3;
-    color: orangered;
-    font-size: 10px;
-    margin: 3% auto;
+    color: rgb(255, 0, 149);
+    font-size: 20px;
+    margin: 5% auto;
   }
   
   button {
@@ -116,7 +124,7 @@ li {
     padding: 20px; 
     padding-bottom: 5%;
     text-align: center;
-    color:white;
+    color:orangered;
     letter-spacing: 16px;
     font-style: italic;
   }

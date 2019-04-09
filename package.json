@@ -1,0 +1,22 @@
+{
+  "name": "aca_web101_gina_gabriel",
+  "version": "1.0.0",
+  "description": "This is my ACA portfolio. Day 1!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldjounie12/ACA_web101_Gina_Gabriel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldjounie12/ACA_web101_Gina_Gabriel/issues"
+  },
+  "homepage": "https://github.com/aldjounie12/ACA_web101_Gina_Gabriel#readme",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
+}
