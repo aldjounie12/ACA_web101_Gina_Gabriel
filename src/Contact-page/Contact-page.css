@@ -1,8 +1,8 @@
 form {
 margin-left:auto;
     margin-right:auto;
-    max-width: 500px;
-    background: #F7F7F7;
+    max-width: 600px;
+    background: url(https://image.freepik.com/free-vector/green-botanical-frame_53876-86234.jpg);
     padding: 25px 15px 25px 10px;
     font: 12px Georgia, "Times New Roman", Times, serif;
     color: #888;
@@ -33,6 +33,36 @@ label>span {
     margin-top: 10px;
     color: #888;
 }
+text area {
+    padding: 5px 3px 3px 5px;
+}
+input[type=submit]:hover {
+    background-color: green;
+
+}
+text area {
+    height:100px;
+    width: 100%;
+}
+.button:active {
+ background-color: lightgreen;
+ box-shadow: 0 5px #666666;
+ transform: rotate3d(4px)
+ 
+}
+.button:hover {
+    background: darkgreen;
+    border-radius: 20px;
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #44ccaa;
+    color:white;
+    padding:12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: 3s 1;
+}
 input[type="text"], input[type="email"], textarea, select {
     border: 1px solid #DADADA;
     color: #888;
@@ -49,10 +79,13 @@ input[type="text"], input[type="email"], textarea, select {
     -moz-box-shadow: inset 0px 1px 4px #ECECEC;
     -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
 }
-textarea{
+textarea {
     padding: 5px 3px 3px 5px;
 }
-select {
+input[type=submit]:hover {
+    background-color: green;
+}
+/* select {
     background: #FFF url('down-arrow.png') no-repeat right;
     background: #FFF url('down-arrow.png') no-repeat right;
     appearance:none;
@@ -63,22 +96,19 @@ select {
     width: 70%;
     height: 35px;
     line-height: 25px;
-}
+} */
 textarea{
     height:100px;
 }
-.button {
-    background: #E27575;
-    border: none;
-    padding: 10px 25px 10px 25px;
-    color: #FFF;
-    box-shadow: 1px 1px 5px #B6B6B6;
-    border-radius: 3px;
-    text-shadow: 1px 1px 1px #9E3F3F;
-    cursor: pointer;
+.button:active {
+ background-color: lightgreen;
+ box-shadow: 0 5px #666666;
+ transform: rotate3d(4px)
+ 
 }
 .button:hover {
-    background: #CF7A7A
+    background: darkgreen;
+    border-radius: 10px;
 }
 
 
@@ -109,9 +139,9 @@ input[type=submit] {
     animation: 3s 1;
 }
 
-input[type=submit]:hover {
+/* input[type=submit]:hover {
     background-color: fuchsia;
-}
+} */
 /* style the container/contact section */
 /* .container {
     border-radius:5px;
@@ -131,12 +161,12 @@ input[type=submit]:hover {
     display: table;
     clear:both;
 } */
-.icon {
+/* .icon {
     /* /* float: left; */
-    width: 20px;
+    /* width: 20px;
     height: 20px ;
     padding: 20px;
-} 
+}  */ */
 /* Responsive layout - when the screen is less than 600px 
 wide' make the two columns stack on top of each other
 instead of the next to each other*/

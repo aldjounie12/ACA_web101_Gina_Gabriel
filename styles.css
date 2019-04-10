@@ -1,6 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.title {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+ .grid div:nth-child(even) {
+background-color: red;
+ }
+ .grid div:nth-child(odd) {
+  background-color: blue;
+   }
 
-
-project-container {
+/* project-container {
   margin :10;
   padding: 10;
   background: palevioletred;
@@ -58,7 +75,7 @@ padding: 10px;
 border:1px solid red;
 text-align: center;
 }
-}
+} */
  
  
  

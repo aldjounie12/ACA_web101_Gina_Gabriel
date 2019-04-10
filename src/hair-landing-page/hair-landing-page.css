@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
 a:hover { 
     background-color: #599;
 }
@@ -36,32 +41,38 @@ header {
  margin-bottom: 2%; 
 
 }
-.wrapper {
+.container {
     max-width: 400px;
     grid-template-columns: 2fr 1fr 1fr;
     grid-row: auto;
     display: flex-row;
-    display: flexbox;
+    font-display: row;
     flex-direction: column;
 }
-.wrapper img {
+.container img {
     max-width: auto;
 }
 
 .pic{
-    display:flex;
-    flex-direction: row;
+    display:row;
+    flex-direction: column;
     justify-content: space-between;
+    border: #599 solid;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    line-height: 2em;
+    border: #519194;
+    display: center;
     border: 2px #599 solid;
-    margin:2%;
-    padding: 2%;
-
+    margin: 0;
+    padding: 10%;
 }
 .hstyle {
     display: flex;
     flex-direction: row;
     line-height: 2em;
-    border-box: #519194;
+    border: #519194;
     display: center;
     border: 2px #599 solid;
     margin: 0;
