@@ -1,0 +1,26 @@
+.body {
+    margin: 100%;
+    height: 100%;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(20deg);
+}
+.main-container {
+    transform-box: multiple transform;
+}
+div1 {
+    transform: rotateY(20deg);
+    transform-style: preserve-3d;
+  }
+ 
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 217, 0);
+    margin: 0 0 10px 0;
+
+}
