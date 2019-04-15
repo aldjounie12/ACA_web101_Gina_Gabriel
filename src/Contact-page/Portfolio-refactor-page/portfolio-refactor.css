@@ -1,0 +1,88 @@
+.grid {
+    display: grid;
+    grid-template-rows: repeat(7);
+    grid-auto-columns:auto ;
+    grid-gap: 0;
+    box-direction: center;
+
+}
+.box1 {
+    height: 50px;
+    width: auto;
+    background:rgb(228, 198, 202);
+    }
+    .navbar {
+        width: 100%;
+        background-color: peru;
+        overflow: auto;
+      }
+      
+      .navbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background-color: rgb(228, 198, 202);
+      }
+      
+      .active {
+        background-color:  rgb(129, 197, 129);
+      }
+      
+      @media screen and (max-width: 500px) {
+        .navbar a {
+          float: none;
+          display: block;
+        }
+      }
+    .box2 {
+        height: 470px;
+        width: auto;
+        background: powderblue;
+        }
+        .center {
+            text-align: center;
+            border: clear;
+            
+          }
+        .box2 {
+            grid-area: flex;
+            background: url(https://www.cianellistudios.com/blog/wp-content/uploads/2012/01/abstract-art-freedom.jpg);
+            display: center;
+            flex-direction: center;
+            align-items: center;
+            text-align: center;
+            text-combine-upright: 40px;
+            justify-content: center;
+        }
+        .box3 {
+            height: 350px;
+            width: auto;
+            background: powderblue;
+            }
+            .box4 {
+                height: 270px;
+                width: auto;
+                background: rosybrown;
+                }
+                
+                .box5 {
+                    height: 270px;
+                    width: auto;
+                    background: bisque;
+                    }
+                    .box6 {
+                        height: 300px;
+                        width: auto;
+                        background: peru;
+                        }
+                        .box7 {
+                            height: 70px;
+                            width: 850px;
+                            background: rgb(129, 197, 129);
+                            }
+ 

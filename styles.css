@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -15,8 +15,8 @@ background-color: red;
  }
  .grid div:nth-child(odd) {
   background-color: blue;
-   }
-
+   } */
+/* 
 /* project-container {
   margin :10;
   padding: 10;
@@ -104,12 +104,11 @@ body {
  /* article > h3 {
    font-size: 1em;
  } */
-
+/* 
  /* article:hover {
    background: whitesmoke;
- } */
-
- /* article:hover > h3 {
-   color: blue;
  } */ */
 
+ article:hover > h3 {
+   color: blue;
+ } 
