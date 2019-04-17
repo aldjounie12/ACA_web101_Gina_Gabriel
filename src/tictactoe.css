@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+.main-container {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.player-selection {
+    border: 1px solid black;
+    height: 8%;
+}
+.game-board {
+    border: 1px solid black;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+
+}
+.game-board-row {
+    border: 1px solid pink;
+    height: 33%;
+    display: flex;
+    flex-direction: row; 
+}
+.game-board-cell {
+    width: 33%;
+    border: 1px solid green;
+}
