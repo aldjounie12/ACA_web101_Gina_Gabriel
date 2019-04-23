@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(#bdc3c7);
+    background-image: url(https://i.pinimg.com/564x/2b/12/c7/2b12c7f6bc26bdb96d1c95711a5005a7.jpg?b=t);
     background-repeat: #bdc3c7;
     background-size: 1600px 1000px;
 
@@ -10,7 +10,7 @@ body {
   }
   
   .logo {
-    width: 150px;
+    width: 100px;
     height: 100px;
     margin: 3% 10%;
   }
@@ -29,7 +29,7 @@ body {
   }
 
   a:hover {
-    background: rgb(117, 0, 128);
+    background: palevioletred;
     color:whitesmoke;
     font-family: 'Times New Roman', Times, serif;
     transition: 0.5s;
@@ -76,7 +76,7 @@ li {
     padding-right: 2%;
   }
   
-  #profile-pic {
+  .pic {
     width: 320px;
     height: 330px;
     border-radius: 50%;

@@ -154,7 +154,12 @@ footer {
         left: -10%;
     }
 }
-
+/* @media only screen and (min-width: 768px) {
+    .img-banner {
+        display: block;
+        width:100%;
+        padding-bottom: 30px;
+    } */
 .card {
     display: grid;
     grid-template:
@@ -216,5 +221,11 @@ a {
     font-display: center;
     font-size: 3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media screen and (max-width: 1120px) {
+    .leftcolumn, .rightcolumn { 
+      width: 100%;
+      padding: 0;
+    }
 }
 

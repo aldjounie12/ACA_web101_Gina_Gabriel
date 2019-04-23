@@ -1,16 +1,137 @@
+ body{
+    width: 100%;
+    height: 100%;
+    background: url(https://s3.envato.com/files/244983969/FM8_4969.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  .i {
+    font-size:80px; color: rgb(238, 101, 146);
+  }
+  
+  .btn:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: white;
+    color: rgb(238, 101, 146);
+  }
 
-/* .border {
-    border: 1px solid red;
+  
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background:rgb(253, 226, 230);
+  }
+  
+
+.img {
+    display: right;
+    width: 60px;
+    height: 60px; 
+  } 
+
+
+  .text{
+display: right;
+align-content: flex-start;
+align-items: flex-end;
+  }
+  
+  .card {
+    padding: 0px;
+    margin-top: 20px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background:  rgb(253, 226, 230);
+    margin-top: 20px;
+  }
+  footer {
+    grid-area: footer;
 }
-.border2 {
-    border: 1px solid yellow;
+.btn {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: beige;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px -5px ( peru);
+    color: rgb(238, 101, 146);
+    overflow: hidden;
+    position: relative;
+}.btn i {
+    line-height: 90px;
+    font-size: 26px;
+    transition:0.2s linear; 
 }
-.border3 { 
-border: 1px solid blue;
+.btn:hover{
+    transform: scale(1.3);
+    color: rgb(34, 207, 207);
 }
-.border4 {
-    border: 1px solid black;
-} */
-main {
-    
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:clear;
+    transform: rotate(45deg);
+    left: -90%;
+    top:90%;
 }
+.btn:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+  
+  @media screen and (max-width: 960px) {
+    .leftcolumn, .rightcolumn { 
+      width: 100%;
+      padding: 0;
+    }
+  }
